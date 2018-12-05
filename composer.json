@@ -1,0 +1,21 @@
+{
+    "name": "belgimil/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alex Belkoff",
+            "email": "belkoff@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "belkoff\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
